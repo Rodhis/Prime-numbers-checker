@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Números Primos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Números Primos</h1>
+        <h3>Número Primo é todo aquele que possui divisão de resto zero apenas com o número 1 e si próprio!</h3>
+
+    </header>
+    <section>
+        <div>
+            <p>Digite o número a ser verificado: <input type="number" name="caixa" id="txtnum"></p>
+        
+            <input type="button" name="verificar" value="Verificar" onclick="verificarPrimo()">
+        </div>
+    
+        <div id="res"> <p>Resultado aparecerá aqui!</p>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Rodhis</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

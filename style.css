@@ -1,0 +1,36 @@
+body {
+    background: rgb(59, 59, 65);
+    font: normal 15pt Arial;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+
+}
+
+h3 {
+    font: bold 20pt Garamond
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.658);
+
+}
+
+input[type="number"] { /*seletor específico para input do tipo number */
+    width: 40px; /* diminuir o tamanho das caixas de input para ficar mais bonito! */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
